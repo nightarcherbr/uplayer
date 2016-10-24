@@ -1,0 +1,9 @@
+nose2>=0.5.0
+pip>=1.5.6
+pygobject>=3.14.0
+requests>=2.4.3
+setuptools>=5.5.1
+six>=1.8.0
+urllib3>=1.9.1
+wheel>=0.24.0
+promise>=1.0
