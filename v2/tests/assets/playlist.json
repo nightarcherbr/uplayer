@@ -1,0 +1,413 @@
+{
+    "control": {
+        "ID": "Dm3Uf8",
+        "license": "aaa",
+        "signature": "aaaa",
+        "creation_time": "YY-MM-DD hh:mm:ss",
+        "city": "RIO DE JANEIRO",
+        "timezone": -3,
+        "blank_time": "HH:mm:ss",
+        "wakeup_time": "HH:mm:ss",
+        "reboot_time": "HH:mm:ss"
+    },
+    "layout": {
+        "Layout 1" : {
+            "id": "Layout 1",
+            "x": "0/640",
+            "y": "0/480",
+            "width": "1440/1440",
+            "height": "900/900",
+            "schedule": [
+                {"start_time": "00:00:00", "end_time": "06:00:00" },
+                {"start_time": "12:00:00", "end_time": "18:00:00" }
+            ],
+            "frames": [
+                {
+                    "id": "master",
+                    "width": "1440/1440",
+                    "height": "900/900",
+                    "x": "0/640",
+                    "y": "0/480",
+                    "zindex": 1,
+                    "grid": [ "Random","Random","Random" ]
+                }
+            ]
+        },
+        "Layout 2" : {
+            "id": "Layout 1",
+            "x": "0/640",
+            "y": "0/480",
+            "width": "1440/1440",
+            "height": "900/900",
+            "schedule": [
+                {"start_time": "06:00:00", "end_time": "12:00:00" },
+                {"start_time": "18:00:00", "end_time": "00:00:00" }
+            ],
+            "frames": [
+                {
+                    "id": "master",
+                    "width": "1440/1440",
+                    "height": "900/900",
+                    "x": "0/640",
+                    "y": "0/480",
+                    "zindex": 1,
+                    "grid": [ "Random","Random","Random" ]
+                }
+            ]
+        }
+    },
+    "playlist": {
+        "Sequencial": {
+            "id": 1,
+            "name": "Sequencial",
+            "order": "sequence",
+            "item": [
+                1,
+                2,
+                3
+            ]
+        },
+        "Random": {
+            "id": 2,
+            "name": "Random",
+            "order": "random",
+            "item": [
+                1,
+                2,
+                3,
+                4,
+                99
+            ]
+        },
+        "Timebased": {
+            "id": 3,
+            "name": "Timebased",
+            "order": "scheduled",
+            "item": [
+                9,
+                10
+            ]
+        }
+    },
+    "content": {
+        "99" : {
+            "id": 99,
+            "name": "ClearScreen",
+            "file": "/conteudos/Curtas.mp4",
+            "path": "",
+            "duration": 30,
+            "meta": {},
+            "overlay": null,
+            "schedule": null
+        },
+        "1" : {
+            "id": 1,
+            "name": "Fullscreen 1",
+            "file": "/conteudos/Dicas Saúde.mp4",
+            "path": "",
+            "duration": 30,
+            "meta": {},
+            "overlay": null,
+            "schedule": null
+        },
+        "2" : {
+            "id": 2,
+            "name": "Template 1",
+            "file": "/conteudos/Mundo BT.mp4",
+            "path": "",
+            "duration": 30,
+            "meta": {
+                "texto": "Uplayer está Ulive."
+            },
+            "overlay": null,
+            "schedule": null
+        },
+        "3" : {
+            "id": 3,
+            "name": "Fullscreen 3",
+            "file": "/conteudos/Vida Boa.mp4",
+            "path": "",
+            "duration": 30,
+            "meta": {},
+            "overlay": null,
+            "schedule": null
+        },
+        "4" : {
+            "id": 4,
+            "name": "Fullscreen 3",
+            "file": "/conteudos/Template.mp4",
+            "path": "",
+            "duration": 30,
+            "meta": {},
+            "overlay": null,
+            "schedule": null
+        },
+        "T4" : {
+            "id": 4,
+            "name": "Noticia 1",
+            "file": "content4.swf",
+            "path": "conteudos/",
+            "duration": 30,
+            "meta": {
+                "editoria": "Brasil",
+                "texto": "Dilma assassinada hoje em um hotel em Copacabana.",
+                "foto": "conteudos/presunto.jpg"
+            },
+            "overlay": null,
+            "schedule": [
+                {
+                    "start": "YY-MM-DD hh:mm:ss",
+                    "end": "YY-MM-DD hh:mm:ss"
+                }
+            ]
+        },
+        "T5" : {
+            "id": 5,
+            "name": "Noticia 2",
+            "file": "content5.swf",
+            "path": "conteudos/",
+            "duration": 30,
+            "meta": {
+                "editoria": "Brasil",
+                "texto": "Dilma assassinada hoje em um hotel em Copacabana.",
+                "foto": "conteudos/presunto.jpg"
+            },
+            "overlay": null,
+            "schedule": [
+                {
+                    "start": "YY-MM-DD hh:mm:ss",
+                    "end": "YY-MM-DD hh:mm:ss"
+                }
+            ]
+        },
+        "T6" : {
+            "id": 6,
+            "name": "Noticia 3",
+            "file": "content6.swf",
+            "path": "conteudos/",
+            "duration": 30,
+            "meta": {
+                "editoria": "Brasil",
+                "texto": "Dilma assassinada hoje em um hotel em Copacabana.",
+                "foto": "conteudos/presunto.jpg"
+            },
+            "overlay": null,
+            "schedule": [
+                {
+                    "start": "YY-MM-DD hh:mm:ss",
+                    "end": "YY-MM-DD hh:mm:ss"
+                }
+            ]
+        },
+        "T7" : {
+            "id": 7,
+            "name": "Noticia 4",
+            "file": "content7.swf",
+            "path": "conteudos/",
+            "duration": 30,
+            "meta": {
+                "editoria": "Brasil",
+                "texto": "Dilma assassinada hoje em um hotel em Copacabana.",
+                "foto": "conteudos/presunto.jpg"
+            },
+            "overlay": null,
+            "schedule": [
+                {
+                    "start": "YY-MM-DD hh:mm:ss",
+                    "end": "YY-MM-DD hh:mm:ss"
+                }
+            ]
+        },
+        "T8" : {
+            "id": 8,
+            "name": "Noticia 5",
+            "file": "content8.swf",
+            "path": "conteudos/",
+            "duration": 30,
+            "meta": {
+                "editoria": "Brasil",
+                "texto": "Dilma assassinada hoje em um hotel em Copacabana.",
+                "foto": "conteudos/presunto.jpg"
+            },
+            "overlay": null,
+            "schedule": [
+                {
+                    "start": "YY-MM-DD hh:mm:ss",
+                    "end": "YY-MM-DD hh:mm:ss"
+                }
+            ]
+        },
+        "9" : {
+            "id": 9,
+            "name": "Barra Rotativa 1",
+            "file": "content1.mp4",
+            "path": "conteudos/2015-01-01/",
+            "duration": 10800,
+            "meta": null,
+            "overlay": null,
+            "schedule": [
+                {
+                    "start": "2015-01-01 09:00:00",
+                    "end": "2016-01-01 22:00:00",
+                    "start_time": "09:00:00",
+                    "end_time": "22:00:00",
+                    "days": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                }
+            ]
+        },
+        "10" : {
+            "id": 10,
+            "name": "Barra Rotativa 2",
+            "file": "content1.mp4",
+            "path": "conteudos/2015-01-01/",
+            "duration": 10800,
+            "meta": {
+                "texto": "Up Midia Digital!.",
+                "foto": "conteudos/logo_player.jpg"
+            },
+            "overlay": null,
+            "schedule": [
+                {
+                    "start": "2015-01-01 09:00:00",
+                    "end": "2016-01-01 22:00:00",
+                    "start_time": "09:00:00",
+                    "end_time": "22:00:00",
+                    "days": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ]
+                }
+            ]
+        }
+    },
+    "cambio": [
+        {
+            "nome": "Euro",
+            "codigo": "EUR",
+            "data": 1429286880,
+            "valor": 3.304,
+            "variacao": 1.82,
+            "fonte": "AE",
+            "validade": 1429290480
+        },
+        {
+            "nome": "Dólar",
+            "codigo": "USD",
+            "data": 1429286880,
+            "valor": 3.064,
+            "variacao": 1.83,
+            "fonte": "AE",
+            "validade": 1429290480
+        }
+    ],
+    "bolsas": [
+        {
+            "nome": "iBovespa",
+            "codigo": "IBOV",
+            "data": 1429286400,
+            "valor": 54441,
+            "variacao": -0.43,
+            "fonte": "AE",
+            "validade": 1429290000
+        },
+        {
+            "nome": "Londres",
+            "codigo": "LSE.L",
+            "data": 1429299540,
+            "valor": 2491,
+            "variacao": -1.6058,
+            "fonte": "YF",
+            "validade": 1429303140
+        },
+        {
+            "nome": "Nasdaq",
+            "codigo": "^IXIC",
+            "data": 1429287600,
+            "valor": 4935,
+            "variacao": -1.4554,
+            "fonte": "YF",
+            "validade": 1429291200
+        }
+    ],
+    "acao": [],
+    "clima": {
+        "RIO DE JANEIRO": [
+            {
+                "cidade": "Rio de Janeiro",
+                "provedor": "OW",
+                "data": 1429239600,
+                "atual": "28",
+                "maxima": "28",
+                "minima": "22",
+                "tipo": "RAIN"
+            },
+            {
+                "cidade": "Rio de Janeiro",
+                "provedor": "OW",
+                "data": 1429326000,
+                "atual": "30",
+                "maxima": "32",
+                "minima": "20",
+                "tipo": "CLEAR"
+            },
+            {
+                "cidade": "Rio de Janeiro",
+                "provedor": "OW",
+                "data": 1429412400,
+                "atual": "29",
+                "maxima": "29",
+                "minima": "21",
+                "tipo": "RAIN"
+            },
+            {
+                "cidade": "Rio de Janeiro",
+                "provedor": "OW",
+                "data": 1429498800,
+                "atual": "26",
+                "maxima": "28",
+                "minima": "23",
+                "tipo": "RAIN"
+            },
+            {
+                "cidade": "Rio de Janeiro",
+                "provedor": "OW",
+                "data": 1429585200,
+                "atual": "26",
+                "maxima": "29",
+                "minima": "23",
+                "tipo": "CLEAR"
+            },
+            {
+                "cidade": "Rio de Janeiro",
+                "provedor": "OW",
+                "data": 1429671600,
+                "atual": "28",
+                "maxima": "30",
+                "minima": "23",
+                "tipo": "CLEAR"
+            },
+            {
+                "cidade": "Rio de Janeiro",
+                "provedor": "OW",
+                "data": 1429758000,
+                "atual": "24",
+                "maxima": "26",
+                "minima": "23",
+                "tipo": "RAIN"
+            }
+        ]
+    }
+}

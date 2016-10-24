@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"path": "./"
+		}
+	],
+    "build_systems":
+    [
+        {
+            "name": "Build Project",
+            "working_dir": "${project_path}",
+            "env": {"PYTHONPATH": "."},
+            "cmd": ["/usr/bin/python3", "-u", "$project_path"],
+            "selector": "source.python"
+        },
+        {
+            "name": "Build Tests",
+            "working_dir": "${project_path}",
+            "env": {"PYTHONPATH": "."},
+            "cmd": ["/usr/bin/python3", "-u", "$project_path/tests/"],
+            "selector": "source.python"
+        },
+        {
+            "name": "Build File",
+            "working_dir": "${project_path}",
+            "env": {"PYTHONPATH": "."},
+            "cmd": ["/usr/bin/python3", "-u", "$file"],
+            "selector": "source.python"
+        }
+    ]
+}
